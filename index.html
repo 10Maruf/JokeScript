@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JokeScript</title>
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%237765ff'/><stop offset='50%25' style='stop-color:%239fe9f5'/><stop offset='100%25' style='stop-color:%23a09ff5'/></linearGradient></defs><text x='50' y='70' font-size='60' font-weight='bold' text-anchor='middle' fill='url(%23g)' font-family='monospace'>JS</text></svg>">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header py-4">
+        <div class="container text-center">
+            <div class="logo-badge">JokeScript</div>
+        </div>
+    </header>
+
+    <main class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-10 col-lg-8">
+                <div class="joke-card shadow-lg">
+                    <p id="joke-text" class="joke-text">Click the button to get a random joke.</p>
+                </div>
+
+                <div class="d-flex justify-content-center mt-4">
+                    <button id="new-joke" class="btn next-btn">Next</button>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <nav class="bottom-nav fixed-bottom">
+        <div class="container text-center py-2">
+            <small class="text-muted">© <span id="copyright-year"></span> Mofassel Alam Maruf</small>
+        </div>
+    </nav>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
