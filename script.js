@@ -1,7 +1,6 @@
 
 const jokeText = document.getElementById('joke-text');
 const newJokeBtn = document.getElementById('new-joke');
-const copyBtn = document.getElementById('copy-joke'); // may be null if UI hides/removes it
 
 let jokes = [];
 
